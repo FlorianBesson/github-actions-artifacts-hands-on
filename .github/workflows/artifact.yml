@@ -20,7 +20,7 @@ jobs:
         path: hello.txt
 
   print-hello:
-      needs: build
+      needs: build-hello
       runs-on: ubuntu-latest
       steps:
       - name: Checkout code
